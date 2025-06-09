@@ -6,7 +6,7 @@ import streamlit as st
 
 def predict_crop(location, n, p, k, ph):
     # Full path to your CSV file
-    csv_file = "C:/Users/LENOVO/Desktop/College Projects/ML and DL Projects/Crop Recommendation Model/Crop_recommendation.csv"
+    csv_file = "Crop_recommendation.csv"
     
     # Initialize system
     system = CropRecommendationSystem(csv_file)
